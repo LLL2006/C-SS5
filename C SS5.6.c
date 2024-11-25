@@ -21,23 +21,23 @@ int main() {
 
         switch (chon) {
             case 1:
-                printf("Tong cua %.2f va %.2f la: %.2f\n", n1, n2, n1 + n2);
+                printf("Tong: %.2f\n", n1 + n2);
                 break;
             case 2:
-                printf("Hieu cua %.2f va %.2f la: %.2f\n", n1, n2, n1 - n2);
+                printf("Hieu: %.2f\n", n1 - n2);
                 break;
             case 3:
-                printf("Tich cua %.2f va %.2f la: %.2f\n", n1, n2, n1 * n2);
+                printf("Tich: %.2f\n", n1 * n2);
                 break;
             case 4:
                 if (n2 != 0) {
-                    printf("Thuong cua %.2f va %.2f la: %.2f\n", n1, n2, n1 / n2);
+                    printf("Thuong: %.2f\n", n1 / n2);
                 } else {
-                    printf("Loi: Khong the chia cho 0!\n");
+                    printf("Khong the chia cho 0\n");
                 }
                 break;
             case 5:
-                printf("Chuong trinh ket thuc.\n");
+                printf("Ket thuc.\n");
                 break;
             default:
                 printf("Hay thu lai.\n");
